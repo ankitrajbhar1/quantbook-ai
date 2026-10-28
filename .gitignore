@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local databases and generated storage
+backend/storage/
+*.sqlite3
+*.db
+
+# Local PDFs and source books
+backend/Books/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.backup
+*.backup-*
+*.before_json_test
+*.phase3_1_*
+
+# Editor-specific local files
+.vscode/*
+!.vscode/settings.json
+
+# Build outputs
+dist/
+build/
+node_modules/
